@@ -18,7 +18,7 @@ public class Arr {
         catch(ArrayIndexOutOfBoundsException e){
             System.out.println("Exception is "+e);
         }
-        catch(InputMismatchException e){
+        catch(InputMismatchException e){     //InputMismatchException instead of NumberFormatException
             System.out.println("Exception is"+e);
         }
     }
